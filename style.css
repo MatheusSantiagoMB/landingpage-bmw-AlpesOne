@@ -19,6 +19,8 @@ header {
   font-family: 'BMW';
   justify-content: space-around;
   height: 18vh;
+  font-family: 'BMW';
+  font-weight: normal; 
 }
 
 .navbar-menu{
@@ -101,7 +103,7 @@ form {
   margin: 0 auto; /* Centralizar o formulário horizontalmente */
   position: absolute;
   top: 300px;
-  right: 300px;
+  right: 100px;
   background-color: rgba(255, 255, 255, 0.9); /* Fundo branco quase transparente */
   padding: 20px;
   border-radius: 5px; /* Cantos arredondados */
@@ -175,7 +177,10 @@ button.botao-enviar {
 
 .titlo-bmw{
   text-align: center;
-  margin-top: 5vw;
+  font-family: 'BMW';
+  font-weight: normal;
+  padding: 10vh;
+  font-size: 14px;
 }
 
 .cards {
@@ -183,34 +188,54 @@ button.botao-enviar {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 8vh;
 }
 
 .card {
-  width: 315px;
-  
+  width: 315px; 
+  margin-bottom: 8vh;
+}
+
+.card-nome-do-carro{
+  display: flex;
+
+}
+
+.compartilhar-redes-sociais {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap: -1vh;
+}
+
+.compartilhar-redes-sociais span {
+  margin-right: 10px;
+}
+
+.compartilhar-redes-sociais img {
+  max-width: 20px;
 }
 
 .card-botao {
+  color: rgb(255, 255, 255);
   background-color: #0074cc;
   text-align: center;
   width: 100%;
-  padding: 8px;
+  padding: 12px;
+  border: none;
+  margin-top: 3vh;
+  font-size: 1vw;
+  margin-bottom: 20px;
 }
 
 .card-nome-do-carro {
   font-family: 'BMW';  
-}
-
-.card-botao{
-  font-size: 2vw;
+  margin-right: 20px;
 }
 
 .card-lista{
   display: flex;
-  gap: 50px;
+  gap: 8vh;
+ 
 }
 
-.rodape {
-  background-color: rgba(0, 0, 0, 0.212);
-  padding: 10vh;
-}
